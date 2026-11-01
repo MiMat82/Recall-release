@@ -1,17 +1,23 @@
 # Recall · Release notes
 
+## Publishing update — 1 November 2026
+
+GitHub is the distribution channel for Recall. The planned Edge Add-ons enrollment has been discontinued. The product page, launch materials and user guides now reflect GitHub installation and manual updates using the existing About controls. This is a documentation update: **the 0.1.4 ZIP, extension identity and stored data are unchanged**.
+
+[Launch kit](MARKETING.md) · [Update safely](UPDATING.md)
+
 ## 0.1.4 — 1 November 2026
 
-Prepare your remembered context for the planned Edge Add-ons edition.
+Back up remembered context and bring it to another Recall installation.
 
 - Added **About → Export context** and **Import context**. The local JSON contains remembered URLs and page text; keep it private.
 - Imports add missing context for matching favorites and keep existing entries. Invalid files are rejected without partial writes; favorites are not modified.
-- Prepared a separate Edge Add-ons submission package, store copy and images. Store installations will use Microsoft's automatic-update channel after approval. **No live store listing or automatic delivery is claimed yet:** publisher registration and review are pending.
+- Earlier preparation included a separate Edge Add-ons submission package, copy and images. That publishing route has since been discontinued; the preparation remains an inactive reference, not an upcoming release.
 - Kept the current GitHub/unpacked edition's identity and manual update path. Both previous public downloads remain unchanged.
 
 Cross-ID migration, transaction rollback, offline search and accessibility passed in isolated Edge and Chrome profiles. In-place upgrades through 0.1.4 retained existing fixture context and vectors. The store ZIP was exercised unpacked for code verification; this does not test Microsoft-delivered installation or updates.
 
-[Store status and one-time migration](EDGE-ADDONS.md) · [Update the current ZIP edition](UPDATING.md)
+[Distribution update](EDGE-ADDONS.md) · [Update the current ZIP edition](UPDATING.md)
 
 ## 0.1.3 — 1 November 2026
 

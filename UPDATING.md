@@ -43,13 +43,15 @@ In-place upgrades from 0.1.1 → 0.1.2 → 0.1.3 → 0.1.4 and the new Reload Re
 
 ## Checking is built in; installation is manual
 
-The current ZIP is an **unpacked extension**. Check for updates does not download files or install them, and Reload Recall only reloads files already on disk. Browser-store distribution would provide the normal automatic-update route; Recall is not yet listed in Edge Add-ons or the Chrome Web Store. See [Microsoft's sideloading guidance](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/extension-sideloading) and [Chrome's distribution options](https://developer.chrome.com/docs/extensions/how-to/distribute).
+The GitHub ZIP is an **unpacked extension**. Check for updates does not download files or install them, and Reload Recall only reloads files already on disk. GitHub is Recall's publishing channel; no browser-store launch or automatic installer is currently planned. See [Microsoft's sideloading guidance](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/extension-sideloading) and [Chrome's distribution options](https://developer.chrome.com/docs/extensions/how-to/distribute).
 
 Checks run only when you click. They request public release information from GitHub without sending your favorites, searches or page context. GitHub receives normal connection metadata, such as your IP address. No account, background checker or additional browser permission is required. [Privacy details](PRIVACY.md).
 
-## Automatic updates through Edge Add-ons
+## Can I update by clicking a button?
 
-A separate store edition has been prepared, but publisher registration and Microsoft review are pending. Once the verified listing is live and installed, Edge will handle its updates. Switching may change the extension ID: export context first and verify it in the new installation before removing the old one. [Store status and migration steps](EDGE-ADDONS.md).
+The buttons handle checking, opening the release page and reloading. **They do not replace the installed files.** Use **View version …** when a newer release is found, or **Open release page** at any time. After you download, extract and copy the files into the existing folder, **Reload Recall** completes the reload.
+
+There is no background update check or automatic installation. You decide when to check and when to apply a release. The earlier Edge Add-ons plan has been discontinued; [distribution update](EDGE-ADDONS.md).
 
 ## If the version does not change
 

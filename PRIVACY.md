@@ -34,7 +34,7 @@ Opening a search result connects to the destination website in the normal way. C
 
 In the unpacked/GitHub edition, only when you click **Check for updates** in About, Recall requests the latest public release information from GitHub's API. The request contains no favorites, queries or remembered page context; it omits cookies and authentication. GitHub receives normal connection metadata, such as your IP address. The unpacked edition has no background release checks and does not automatically download or install updates.
 
-The separate Edge Add-ons package delegates updates to Microsoft Edge and does not use the GitHub checker. Store update requests follow Microsoft's browser service behavior. The store listing is not yet live; [current status](EDGE-ADDONS.md).
+GitHub is the current publishing channel. The earlier Edge Add-ons plan has been discontinued; no store edition or browser-managed automatic-update service is offered. [Distribution update](EDGE-ADDONS.md).
 
 ## Why these permissions are requested
 

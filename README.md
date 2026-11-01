@@ -14,7 +14,7 @@ No account. No API key. No separate application. Your favorites stay where you s
 
 > Available as a ZIP you load into Microsoft Edge or Google Chrome. This is an early desktop release, tested on Windows; it is not currently listed in either browser's extension store. The download is approximately 22.3 MB because the local search model is included.
 
-**Automatic updates:** an Edge Add-ons edition is being prepared. Publisher registration and Microsoft review are pending. [See the store status and migration guide](EDGE-ADDONS.md). The ZIP below remains the manual edition.
+**Updates are built into About:** choose **Check for updates**, open a newer release, replace the files in your existing Recall folder, then click **Reload Recall**. Checking is built in; file replacement is manual. GitHub is our publishing channel, and no browser-store launch is currently planned.
 
 ## Less hunting. More returning to what matters.
 
@@ -97,7 +97,7 @@ The extension has been exercised in installed Edge and Chrome on Windows using i
 
 Search accuracy depends on the information available about a bookmark. A vague title and URL may not contain enough clues. Meaning search works best in English and can return weak suggestions. These checks do not establish perfect personal-library search, all-language support, browser-store approval, or compatibility with every enterprise policy.
 
-See [release notes](CHANGELOG.md) and [support](SUPPORT.md) for the current scope.
+See [release notes](CHANGELOG.md) and [support](SUPPORT.md) for the current scope. Sharing Recall? The [launch kit](MARKETING.md) includes ready-to-use copy, images and captions.
 
 ## Part of Novalon
 

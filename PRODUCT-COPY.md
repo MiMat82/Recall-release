@@ -52,7 +52,7 @@ Saved the right page, but cannot remember its name? Recall brings a simple searc
 
 Recall combines text matching with local meaning-based suggestions. Its search model is included, so there is no cloud AI service, account or API key to set up. For vague bookmarks, the optional Remember this page action can save useful page context on your device.
 
-The first public desktop package is available as a ZIP for manual installation. Start with the illustrated guide, and explore the current capabilities and limits on the product page.
+Recall 0.1.4 is available on GitHub as a ZIP for manual installation in desktop Edge and Chrome, tested on Windows. Its About page includes Check for updates and a link to the latest release. Replace the files in your existing folder, then click Reload Recall. Start with the illustrated guide.
 
 **Recall. Save today. Find tomorrow.**
 
@@ -75,9 +75,11 @@ The first public desktop package is available as a ZIP for manual installation. 
 - Explain that **Check for updates** explicitly contacts GitHub for public metadata without including favorites, queries or page context. It is a manual check, not an automatic installer.
 - Say **manual ZIP installation**, not “available in the Edge/Chrome store.”
 - Do not claim automatic page summaries, full-page archiving, synchronization, live page monitoring, automatic updates or a new collection manager.
-- The Edge Add-ons submission edition is prepared for automatic updates through Microsoft, but its listing is not live. Only change the public availability claim after approval and verification; the GitHub ZIP remains manual. Prepared store-specific copy is in `store/LISTING.md`.
+- GitHub is the chosen publishing channel. Edge Add-ons enrollment has been discontinued. Do not advertise a forthcoming store edition or browser-managed automatic updates.
 - Do not describe Rust/WebAssembly alone as proof of low memory use. The bundled model/runtime dominate the download, and comprehensive battery/peak-memory measurements are not yet available.
 
 ## Artwork and screenshots
 
 Use the cover for the brand introduction, the walkthrough images beside instructions, and the unmodified product captures when discussing the interface. The cover is generated concept artwork. Screenshots use synthetic bookmarks and a local demo page. Never present that artwork as a real browser screen or use a person's private favorites in public examples.
+
+See the [launch kit](MARKETING.md) for channel-ready posts, selected images and accessible captions.

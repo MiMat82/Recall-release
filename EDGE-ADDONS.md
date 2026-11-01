@@ -1,41 +1,23 @@
-# Recall · Automatic updates through Edge Add-ons
+# Recall · Distribution update
 
-**A Novalon app**
+**A Novalon app · Updated 1 November 2026**
 
-**Status: being prepared.** Recall's Edge Add-ons submission package and migration tools are ready for publisher registration and Microsoft review. There is no verified live store listing yet. The GitHub ZIP still uses manual updates.
+Recall is published on **GitHub**. We have discontinued the planned Edge Add-ons enrollment and are focusing on the GitHub edition. There is no live store listing or planned store migration under this distribution decision.
 
-## What will change
+**[Download Recall](https://github.com/MiMat82/Recall-release/releases/latest)** · **[Install and pin it](GETTING-STARTED.md)** · **[Update safely](UPDATING.md)**
 
-After Recall is approved and installed from Microsoft Edge Add-ons, Edge will download and install approved updates itself. You will no longer need to download a ZIP or replace files for that installation. Updates follow Microsoft's review and browser delivery schedule; publishing a GitHub release does not immediately update the store edition.
+## Keep using your current installation
 
-We will add the verified store link here when it is available. Until then, keep your current Recall installation.
+Recall still works in desktop Microsoft Edge and Google Chrome; both are tested on Windows. There is no need to switch browser or reinstall Recall because of this publishing change.
 
-## Prepare your existing installation
+In **ⓘ About**, choose **Check for updates**. If a newer version is available, open its release page, download the named Recall ZIP, replace the files in your existing installation folder, then click **Reload Recall**. Keep Developer mode enabled. Installation and file replacement are manual.
 
-1. Update your existing unpacked Recall to **0.1.4** in place. Keep its current folder and use **Reload**, not Remove. [Instructions](UPDATING.md).
-2. Open Recall → **ⓘ About** → **Export context**.
-3. Keep the downloaded `Recall-context-YYYY-MM-DD.json` file somewhere private. It contains the URLs and page details you explicitly asked Recall to remember.
+Do not remove Recall as an update step: removal clears its remembered context and local index. Your native browser favorites remain.
 
-![Recall's real context export and import controls.](assets/recall-context.png)
+## Back up your remembered details
 
-The backup does not contain a copy of your native favorites or cached search vectors. Favorites stay in Edge. The index can rebuild locally, while the export preserves the extra remembered details that the favorites themselves do not contain.
+Recall 0.1.4 includes **Export context** and **Import context** in About. Export creates a local JSON file containing remembered URLs and page details. Keep it private; it is not encrypted. It does not contain all your favorites or cached search vectors.
 
-## Switch once the listing is live
+Import adds missing context for matching favorites and keeps entries already present. If you ever change installations, export and verify your backup before removing the old copy. [Context backup instructions](GETTING-STARTED.md#back-up-remembered-context).
 
-1. Export your context first, then install Recall using the verified Edge Add-ons link we publish here.
-2. Open the store edition's About page and choose **Import context**. Select your exported JSON file.
-3. Read the result: Recall imports missing context for matching favorites, keeps context already in the new installation and skips URLs that are not currently bookmarked.
-4. Open the store edition's search and let its local index prepare. Confirm it can find your saved pages and remembered details.
-5. Only after verifying the new installation and your backup, remove the old unpacked copy if it remains installed separately.
-
-The store can assign a different extension ID. That means local storage might not transfer automatically. Export/import avoids relying on an ID match. Do not uninstall the old copy before creating and checking your backup.
-
-## What the tests establish
-
-The 0.1.4 export/import workflow passed in installed Edge and Chrome on Windows, using synthetic favorites and separate extension IDs. It retained existing context, rejected invalid files without partial writes and rebuilt searchable context offline. Store signing, store installation and an actual Microsoft-delivered update cannot be tested until the listing exists.
-
-## Privacy
-
-Export and import happen locally. The JSON file is not encrypted; it may contain private URLs or text. Do not post it to GitHub or send it with a public support request. Store updates use Microsoft's browser update service. Recall's search remains local. [Privacy details](PRIVACY.md).
-
-For reference, see Microsoft's [publishing process](https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/publish-extension) and [store update process](https://learn.microsoft.com/en-us/microsoft-edge/extensions/update/update-extension).
+This page remains at its original address so older links lead to the current distribution decision. Earlier store preparation is not an available product or an automatic-update service.

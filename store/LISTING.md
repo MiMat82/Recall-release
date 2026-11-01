@@ -1,6 +1,8 @@
 # Recall · Edge Add-ons submission copy
 
-**Prepared for 0.1.4. Draft for submission, not evidence of a live store listing.**
+**Archived draft — not for publication.** The Edge Add-ons enrollment was discontinued on 1 November 2026. Recall is published through GitHub. Use [PRODUCT-COPY.md](../PRODUCT-COPY.md) and [MARKETING.md](../MARKETING.md) for current material.
+
+The original 0.1.4 submission draft below is retained only as a historical reference. Its store-specific installation and update text does not describe the downloadable GitHub edition.
 
 ## Identity and listing fields
 

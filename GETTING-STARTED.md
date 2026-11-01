@@ -109,7 +109,7 @@ See the [illustrated update guide](UPDATING.md) for the exact steps, finding you
 
 In About, choose **Export context** to download a local JSON file containing remembered URLs and page text. Keep it private. In another Recall installation in the same browser profile, choose **Import context**. Only missing context for matching favorites is added; existing entries are retained. Favorites and cached search vectors are not included, and the index rebuilds locally.
 
-For the planned store switch, follow [Automatic updates through Edge Add-ons](EDGE-ADDONS.md). Do not remove your current copy before exporting and verifying the migration.
+Keep this backup before any future change of installation. GitHub is the current publishing route; there is no planned store switch. For routine updates, keep the existing folder and reload as described above.
 
 ## Where to go next
 
