@@ -42,6 +42,7 @@ Recall is deliberately focused: click, search, open. It is for the pages you hav
 - **Keep search local.** The included model runs on the device; no search account, cloud AI endpoint or remote favicon service is used.
 - **Pick up where you left off.** Indexing progress is saved and resumes when Recall reopens.
 - **Keep up with new releases.** Check for updates from About, then follow the in-place update steps and reload your existing installation. File replacement remains manual.
+- **Bring remembered details with you.** Export context to a private local file, then import missing context for matching favorites into another Recall installation.
 
 ## Launch announcement
 
@@ -74,6 +75,7 @@ The first public desktop package is available as a ZIP for manual installation. 
 - Explain that **Check for updates** explicitly contacts GitHub for public metadata without including favorites, queries or page context. It is a manual check, not an automatic installer.
 - Say **manual ZIP installation**, not “available in the Edge/Chrome store.”
 - Do not claim automatic page summaries, full-page archiving, synchronization, live page monitoring, automatic updates or a new collection manager.
+- The Edge Add-ons submission edition is prepared for automatic updates through Microsoft, but its listing is not live. Only change the public availability claim after approval and verification; the GitHub ZIP remains manual. Prepared store-specific copy is in `store/LISTING.md`.
 - Do not describe Rust/WebAssembly alone as proof of low memory use. The bundled model/runtime dominate the download, and comprehensive battery/peak-memory measurements are not yet available.
 
 ## Artwork and screenshots

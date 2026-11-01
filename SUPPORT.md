@@ -6,7 +6,7 @@ The folder picker hides regular files. Select the extracted root folder, where `
 
 ## The browser says the manifest is missing
 
-Extract **Recall-0.1.3.zip** first. Select its extracted root, not the ZIP, the directory above it, or GitHub's automatic “Source code” download.
+Extract **Recall-0.1.4.zip** first. Select its extracted root, not the ZIP, the directory above it, or GitHub's automatic “Source code” download.
 
 ## Recall has no results
 
@@ -39,6 +39,14 @@ In Recall 0.1.3 or later, open **ⓘ About → Check for updates**. Download the
 ## The update check fails or the version stays the same
 
 An offline connection, blocked GitHub access or rate limit can prevent verification. Try later or use **Open release page**. A failed check does not mean you are up to date. If the files have been replaced but the version is unchanged, check Recall's **Loaded from** folder on its browser Details page. The files must go directly into that folder, not another copy or a nested directory. Reload after copying. Recall does not install an update merely by checking for one.
+
+## Moving to the Edge store edition
+
+The listing is pending registration and review. Keep your existing installation until a verified store link is available. Version 0.1.4 can export remembered context for migration. [Store status and migration guide](EDGE-ADDONS.md).
+
+## Context import did not add every page
+
+Import keeps context already present and skips URLs without a matching web favorite in this profile. Check the reported counts. Malformed JSON, invalid URLs, repeated URLs, oversized fields and files above 64 MB are rejected. Use a file created by Recall's Export context action. Reopen search after importing so its index refreshes. Never share a private context backup in a public issue.
 
 ## Compatibility and scope
 

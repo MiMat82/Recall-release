@@ -1,5 +1,18 @@
 # Recall · Release notes
 
+## 0.1.4 — 1 November 2026
+
+Prepare your remembered context for the planned Edge Add-ons edition.
+
+- Added **About → Export context** and **Import context**. The local JSON contains remembered URLs and page text; keep it private.
+- Imports add missing context for matching favorites and keep existing entries. Invalid files are rejected without partial writes; favorites are not modified.
+- Prepared a separate Edge Add-ons submission package, store copy and images. Store installations will use Microsoft's automatic-update channel after approval. **No live store listing or automatic delivery is claimed yet:** publisher registration and review are pending.
+- Kept the current GitHub/unpacked edition's identity and manual update path. Both previous public downloads remain unchanged.
+
+Cross-ID migration, transaction rollback, offline search and accessibility passed in isolated Edge and Chrome profiles. In-place upgrades through 0.1.4 retained existing fixture context and vectors. The store ZIP was exercised unpacked for code verification; this does not test Microsoft-delivered installation or updates.
+
+[Store status and one-time migration](EDGE-ADDONS.md) · [Update the current ZIP edition](UPDATING.md)
+
 ## 0.1.3 — 1 November 2026
 
 Update your existing installation with clearer guidance and an on-demand release check.
