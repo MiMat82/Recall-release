@@ -1,0 +1,13 @@
+{
+  "version": "0.1.2",
+  "browser": "Microsoft Edge",
+  "source": "Actual installed extension in an isolated profile; synthetic bookmarks only.",
+  "files": [
+    "recall-start.png",
+    "recall-search.png",
+    "recall-dark.png",
+    "recall-about.png",
+    "recall-remember.png",
+    "edge-extension.png"
+  ]
+}
