@@ -6,7 +6,7 @@ The folder picker hides regular files. Select the extracted root folder, where `
 
 ## The browser says the manifest is missing
 
-Extract **Recall-0.1.2.zip** first. Select its extracted root, not the ZIP, the directory above it, or GitHub's automatic “Source code” download.
+Extract **Recall-0.1.3.zip** first. Select its extracted root, not the ZIP, the directory above it, or GitHub's automatic “Source code” download.
 
 ## Recall has no results
 
@@ -34,7 +34,11 @@ In Edge, open **Extensions** and choose **Show in toolbar** beside Recall. In Ch
 
 ## I want to update
 
-Replace the files in the existing unpacked folder and click **Reload**. Do not uninstall as an update step; that clears Recall's remembered context. Native favorites are not removed. [Full update instructions](GETTING-STARTED.md#7-update-without-starting-over).
+In Recall 0.1.3 or later, open **ⓘ About → Check for updates**. Download the named ZIP, replace the files in the existing unpacked folder and click **Reload Recall**, or Reload on the browser's Extensions page. Keep Developer mode enabled. Do not uninstall as an update step; that clears Recall's remembered context. Native favorites are not removed. [Full illustrated update instructions](UPDATING.md).
+
+## The update check fails or the version stays the same
+
+An offline connection, blocked GitHub access or rate limit can prevent verification. Try later or use **Open release page**. A failed check does not mean you are up to date. If the files have been replaced but the version is unchanged, check Recall's **Loaded from** folder on its browser Details page. The files must go directly into that folder, not another copy or a nested directory. Reload after copying. Recall does not install an update merely by checking for one.
 
 ## Compatibility and scope
 

@@ -1,5 +1,17 @@
 # Recall · Release notes
 
+## 0.1.3 — 1 November 2026
+
+Update your existing installation with clearer guidance and an on-demand release check.
+
+- Added **About → Check for updates**, which compares the installed version with the latest complete public GitHub release.
+- Added an in-place update walkthrough and **Reload Recall**, using the browser's reload function after you replace the files.
+- Added distinct messages for newer, current and ahead-of-public builds, plus connection failures and GitHub rate limits.
+- Kept the extension identity, storage format, search engine and browser permissions unchanged.
+- Checks run only on click and contain no favorites, searches or page context. GitHub receives normal connection metadata. No background checker or automatic installer is included.
+
+Read [Update without starting over](UPDATING.md). Do not remove/reinstall Recall to update. Upgrades from 0.1.1 through 0.1.2 to 0.1.3 and the new reload button retained fixture favorites, context and cached vectors in isolated Edge and Chrome profiles. The public 0.1.2 download remains unchanged.
+
 ## 0.1.2 — 1 November 2026
 
 Recall is presented as **a Novalon app**, with the product name remaining **Recall**.

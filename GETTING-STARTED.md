@@ -1,12 +1,12 @@
 # Recall · Getting started
 
-**A Novalon app · Guide for version 0.1.2**
+**A Novalon app · Guide for version 0.1.3**
 
 Recall searches your existing browser favorites. You do not need to import them, create an account or buy an API subscription.
 
 ## 1. Download and extract
 
-Open the [Recall 0.1.2 release](https://github.com/MiMat82/Recall-release/releases/tag/v0.1.2) and download **Recall-0.1.2.zip**. Extract the ZIP into a permanent folder—for example, `Documents\Recall`. Keep that folder after installation; the browser loads Recall from it.
+Open the [Recall 0.1.3 release](https://github.com/MiMat82/Recall-release/releases/tag/v0.1.3) and download **Recall-0.1.3.zip**. Extract the ZIP into a permanent folder—for example, `Documents\Recall`. Keep that folder after installation; the browser loads Recall from it.
 
 Use the named Recall ZIP under **Assets**. GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** downloads contain this public documentation repository, not the installable extension.
 
@@ -20,7 +20,7 @@ The extracted folder should contain `manifest.json`, `popup.html` and folders in
 2. Enable **Developer mode**.
 3. Click **Load unpacked**.
 4. Navigate into the extracted Recall folder—the one containing `manifest.json`.
-5. Click **Select Folder**. You should then see **Recall 0.1.2**, enabled in Edge's extension list.
+5. Click **Select Folder**. You should then see **Recall 0.1.3**, enabled in Edge's extension list.
 
 **Seeing only folders in the selection dialog is normal.** That dialog hides ordinary files. If you can see `icons`, `licenses`, `models`, `vendor` and `wasm`, and you are inside the extracted extension folder, select that folder. Do not select one of its subfolders or the ZIP itself.
 
@@ -89,7 +89,7 @@ Remembered context is a local snapshot. If the page changes, use the action agai
 
 ## 7. Update without starting over
 
-For a future version:
+For an existing installation:
 
 1. Close Recall's popup.
 2. Download and extract the new named Recall ZIP.
@@ -99,7 +99,11 @@ For a future version:
 
 **Do not uninstall as an update step.** Uninstalling removes Recall's saved page context and local index. Your native browser favorites remain, but Recall cannot restore its removed context. Keeping the existing folder and extension identity avoids an unnecessary fresh installation.
 
-Version 0.1.2 keeps the identity and data format used by 0.1.0 and 0.1.1. Unpacked installations are updated manually; Recall has no automatic updater.
+Version 0.1.3 keeps the identity and data format used by 0.1.0, 0.1.1 and 0.1.2. Keep Developer mode enabled. Unpacked installations are updated manually.
+
+From 0.1.3 onward, open Recall → **ⓘ About** → **Check for updates** to compare with the latest public release. After replacing the files, expand **How to update without starting over** and use **Reload Recall**, or reload from the browser's Extensions page. The check neither downloads nor installs files.
+
+See the [illustrated update guide](UPDATING.md) for the exact steps, finding your installed folder, what is preserved, and troubleshooting.
 
 ## Where to go next
 

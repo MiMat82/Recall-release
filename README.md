@@ -10,7 +10,7 @@ You remember finding the right tool. A useful article. A page you meant to come 
 
 No account. No API key. No separate application. Your favorites stay where you saved them.
 
-**[Download Recall 0.1.2](https://github.com/MiMat82/Recall-release/releases/tag/v0.1.2)** · **[Illustrated getting-started guide](GETTING-STARTED.md)** · **[Privacy](PRIVACY.md)** · **[Help](SUPPORT.md)**
+**[Download Recall 0.1.3](https://github.com/MiMat82/Recall-release/releases/tag/v0.1.3)** · **[Getting started](GETTING-STARTED.md)** · **[Update safely](UPDATING.md)** · **[Privacy](PRIVACY.md)** · **[Help](SUPPORT.md)**
 
 > Available as a ZIP you load into Microsoft Edge or Google Chrome. This is an early desktop release, tested on Windows; it is not currently listed in either browser's extension store. The download is approximately 22.3 MB because the local search model is included.
 
@@ -45,7 +45,7 @@ Use Edge favorites or Chrome bookmarks as usual. Recall adds a way to retrieve t
   <img src="assets/recall-dark.png" width="350" alt="The same Recall search in dark mode">
 </p>
 
-*Actual Recall 0.1.2 screenshots with synthetic favorites. The interface follows your browser's light or dark appearance.*
+*Actual Recall 0.1.3 screenshots with synthetic favorites. The interface follows your browser's light or dark appearance.*
 
 ## Give an unclear bookmark a little more context
 
@@ -57,11 +57,13 @@ Recall saves the page's title, description and headings locally. It can then use
 
 ## Private by design, practical by choice
 
-![Diagram showing favorites and local page context feeding Recall on the device, with website connections only when a link is opened.](assets/privacy-flow.png)
+![Diagram showing local search, ordinary website connections and explicit GitHub update checks.](assets/privacy-flow.png)
 
 The search engine, model and runtime ship with Recall. Searches, remembered page context and the search index stay in the current browser profile. There are no remote favicon requests, analytics, cloud inference calls or first-run model downloads.
 
 Opening a result connects to that website normally. Following the GitHub links opens GitHub. Your browser may separately sync its native bookmarks according to your browser settings; Recall's context and search index do not sync through Recall.
+
+**Check for updates**, in About, contacts GitHub only when clicked. It sends no favorites, search queries or page context. GitHub receives normal connection metadata, such as your IP address.
 
 Read the [privacy and permissions explanation](PRIVACY.md) for exactly what is stored and what each permission is used for.
 
@@ -73,15 +75,18 @@ Read the [privacy and permissions explanation](PRIVACY.md) for exactly what is s
 - Optional **Remember this page** context capture.
 - Light and dark themes, keyboard selection and a clear one-button entry point.
 - An index that saves progress and resumes when you next open Recall.
+- An on-demand update check, clear in-place update instructions and a Reload Recall button.
 - A Rust search core compiled to WebAssembly, with a small native HTML/CSS/JavaScript interface.
 
 Recall does **not** currently search browsing history, Edge Collections, another browser's profile, saved posts inside services such as Pinterest, or the full contents of every bookmarked page. File links and bookmarklets are excluded. It is not a page-archiving or bookmark-sync service.
 
 ## Getting started
 
-Download **Recall-0.1.2.zip** from the [release page](https://github.com/MiMat82/Recall-release/releases/tag/v0.1.2), extract it to a permanent folder, then choose **Load unpacked** in your browser's Extensions page. Select the extracted folder containing `manifest.json`.
+Download **Recall-0.1.3.zip** from the [release page](https://github.com/MiMat82/Recall-release/releases/tag/v0.1.3), extract it to a permanent folder, then choose **Load unpacked** in your browser's Extensions page. Select the extracted folder containing `manifest.json`.
 
 The [illustrated guide](GETTING-STARTED.md) covers Edge and Chrome installation, pinning, first search, remembering a page and safe updates. Keep the extracted folder in place after installation.
+
+Already installed? [Update the existing folder and reload](UPDATING.md). Do not uninstall: that removes Recall's remembered context. Version 0.1.3 adds **About → Check for updates**; downloading and replacing the files remains manual.
 
 ## Tested—and clear about the limits
 

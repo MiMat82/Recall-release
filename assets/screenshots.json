@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "browser": "Microsoft Edge",
   "source": "Actual installed extension in an isolated profile; synthetic bookmarks only.",
   "files": [
@@ -7,6 +7,7 @@
     "recall-search.png",
     "recall-dark.png",
     "recall-about.png",
+    "recall-updates.png",
     "recall-remember.png",
     "edge-extension.png"
   ]

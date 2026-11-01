@@ -1,6 +1,6 @@
 # Recall · Privacy and permissions
 
-**A Novalon app · Applies to version 0.1.2**
+**A Novalon app · Applies to version 0.1.3**
 
 Recall's search processing runs in your browser. It does not send your queries, favorites or remembered page context to a Novalon server or a cloud AI provider.
 
@@ -26,7 +26,7 @@ The model, runtime and search core are bundled. Indexing and searching require n
 
 Opening a search result connects to the destination website in the normal way. Clicking **Downloads & updates** or **More apps on GitHub** opens GitHub. Those websites have their own data practices.
 
-Recall has no automatic updater and does not periodically contact GitHub for releases.
+Only when you click **Check for updates** in About, Recall requests the latest public release information from GitHub's API. The request contains no favorites, queries or remembered page context; it omits cookies and authentication. GitHub receives normal connection metadata, such as your IP address. Recall has no background release checks and does not automatically download or install updates.
 
 ## Why these permissions are requested
 
@@ -42,7 +42,7 @@ There is no broad all-websites host permission or background page crawler. Brows
 
 Uninstalling Recall removes its local index and saved page context. Native favorites are kept. There is currently no built-in export/import or individual remembered-context deletion screen.
 
-For updates, replace files in the existing installation folder and reload the extension. Avoid uninstalling if you want to retain Recall's context. If you need to remove all Recall-owned local data, uninstalling is the available reset mechanism; a later installation will have to rebuild its index.
+For updates, replace files in the existing installation folder and reload the extension. About includes **Reload Recall** for this step. Avoid uninstalling if you want to retain Recall's context. [Illustrated update instructions](UPDATING.md). If you need to remove all Recall-owned local data, uninstalling is the available reset mechanism; a later installation will have to rebuild its index.
 
 ## Questions or problems
 
